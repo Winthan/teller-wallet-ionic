@@ -49,12 +49,13 @@ $cancel: #dd4b39;
 //Default: #dd2c00;
 $warning: #dd4b39;
 //Default: #dd2c00;
-$success: #38C87F;
+$success: #01C68B;
 
 // General colors
 $black: #000;
 $white: #FFF;
 $grey: #ABABAB;
+$light-grey: #e0e0e0;
 
 //------------------------------------------
 
@@ -393,10 +394,6 @@ $grey: #ABABAB;
   padding-left: 0;
 }
 
-.item-banner {
-  background-color: grey;
-}
-
 // Form error
 .form-error {
   padding: 6px 0 6px 0px;
@@ -670,7 +667,7 @@ img-crop {
 }
 
 .teller-alert {
-  background-color: $success;
+  background-color: $primary;
   h2 {
     color: $white;
   }

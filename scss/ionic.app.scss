@@ -61,6 +61,14 @@ $light-grey: #e0e0e0;
 
 //------------------------------------------
 
+// Selectable text
+.select-body {
+  -webkit-user-select: auto !important;
+  .scroll {
+    -webkit-user-select: inherit;
+  }
+}
+
 // Utility classes
 .background-light {
   background: $background;
@@ -692,7 +700,7 @@ img-crop {
 }
 
 .teller-thumbs .ion-thumbsup,
-.teller-thumbs .ion-thumbsdown  {
+.teller-thumbs .ion-thumbsdown {
   font-size: 8em;
   cursor: pointer;
 }
